@@ -1,0 +1,33 @@
+Create Form Template:
+
+1. Login as Builder
+2. Go into Form Template(Refer to existed template and HTML file)
+	- For system variable names
+	- For the HTML code snippet
+3. Create new HTML form based on the clients’ need
+
+
+
+Create New Model/Phase(Floor)/Units
+
+1. Login as Contracts Manager
+2. Visit Models, or do a Model Search in advance to ensure the model has not been created yet
+3. Create New Model 
+
+1. Areas – Project Areas – add new sub areas
+2. To keep it in order, create Phase or floor first (need to revise the attribute from unit to floor or phase)
+3. adding new units into the phase and floor
+
+
+
+Create New Login for Clients
+
+1. Login as Project Administrator
+2. User Search to ensure no such user has been created yet
+3. Create new role of the user
+4. Username format as [First char of company + first char of project + first name]
+5. Initial Password as abcd1234
+6. create the main role of the user (toggle change password once login)
+7. copy and add new roles to this user, Enable and link these accounts
+
+
