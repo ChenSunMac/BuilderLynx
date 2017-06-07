@@ -5,10 +5,11 @@ Create Form Template:
 	- For system variable names
 	- For the HTML code snippet
 3. Create new HTML form based on the clients’ need
+example HTML: in regalcrest's project   called cleave view estates
+ http://regalcrest.builderlynx.com/cc/formprint/FormTemplateDisplay.jsp?FTID=891 
 
 
-
-Create New Model/Phase(Floor)/Units
+Create New Model/Phase(Floor)/Units, add floor plan
 
 1. Login as Contracts Manager
 2. Visit Models, or do a Model Search in advance to ensure the model has not been created yet
@@ -17,6 +18,18 @@ Create New Model/Phase(Floor)/Units
 1. Areas – Project Areas – add new sub areas
 2. To keep it in order, create Phase or floor first (need to revise the attribute from unit to floor or phase)
 3. adding new units into the phase and floor
+
+Revise Units Attribute(Faster way)
+1. Create all the lots/units
+2. <Search for Homes> and choose the desired attribute for <Report session>
+
+Add a Floor plan:
+1. Use Autocrop tools and manually change the settings for the graph.
+2. Export the 800~ png file
+3. <Search Models> and choose the Model wanted
+4. In the Floor Plan section, write a name for this property and Click <Add Property to this Model>
+
+5. Search image group to either delete or change the name of the property.
 
 
 
@@ -31,3 +44,60 @@ Create New Login for Clients
 7. copy and add new roles to this user, Enable and link these accounts
 
 
+
+
+
+
+Change logo/Company or Prject:
+1. Login as Builder or Contract Manager
+2. Go to Project Areas
+3. Search Project Logo
+4. Change the logo image to 50 pixels height
+5. Upload and change the logo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+quickbooks – accounting system
+
+quick desktop sdk allows read and write to the quick book system
+
+download the sdk
+
+Generate the request twice
+- One from A -> B
+- Two from B -> A
+
+To help the consistency of the data
+
+Tablet application
+
+
+
+Add description to picture:
+
+mobile.propertytypes
+- ImageType.java
+
+
+
+
+scheduling system
+create equivalent version on tablet
+
+
+
+* import script
+  
