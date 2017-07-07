@@ -54,9 +54,62 @@ Change logo/Company or Prject:
 3. Search Project Logo
 4. Change the logo image to 50 pixels height
 5. Upload and change the logo.
+Create/Rebuild a Unit / User Campaign
+
+----------Any notice to home owners are user campaign--------------------
+1. Login as Builder
+2. Search campaign
+3. Revise the HTML code and create new ones.
 
 
 
+Send and Test Campaign:
+1. Login as Contracts Manager
+2. In “Contract Operations” section – choose <select unit>
+3. Usually we could choose the test unit _999 for testing.
+ 
+
+Electrical Customization (What we need)
+1. Price lists for the cusomization
+2. Need the contact information of the supplier
+3. Are there multiple trades involved including in the customization
+are there structural customization in addition to the electrical ones. 
+- Request for Extras document 
+	adding a example document
+
+
+Form Variables:
+1) The Purchaser names are generated with the fields:
+ #Purchaser.Name 1.99# #Purchaser.Name 2.99# #Purchaser.Name 3.99# #Purchaser.Name 4.99#
+Put this before "(the Purchaser)".
+
+2) Vendor Representative is "#Inspector.Name 1.99# #Inspector.Name 2.99#
+
+3) Purchaser contact number: #Purchaser.Work Phone.99# and #Purchaser.Cell Phone.99#
+Cachet Representative: #Inspector.Name 1.99# #Inspector.Name 2.99#
+
+4) The table can be removed and replaced with 
+ #Insert.UnitDeficiencies# 
+This will display any deficiencies that they have entered in this section (which is what the client wants).  In the Form Template also set this to:
+Deficiency Source Default = Inspection, Inspection - Construction
+Deficiency Status Default = New
+
+The signatures are:
+#Form.Signature 1.99# #Form.Signature 2.99#
+and 
+#Form.Inspector Signature.99#
+
+You can look at example forms rom other builders to see how they are doing equivalent settings.  Both Anthony and Mike can suggest some recent ones to use as a reference. 
+
+
+
+Option Clause Catalogue-
+1. Contracts Manager
+2. <Search for Schedules and Clauses> - middle column <Option Clause>
+3. Create Clause (option for decor,essentially choices)
+4. modify html, and add *ExtraNote+pageID*
+5. Change <Category ID>, <Builder Cost> and <Mark Up>, Create <Supplier Customizations>
+6. <Copy this Clause> to make a new ones
 
 
 
@@ -101,3 +154,4 @@ create equivalent version on tablet
 
 * import script
   
+
